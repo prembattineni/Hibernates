@@ -33,5 +33,6 @@ public class HQLDemo {
 	 Query<Product> query2=session.createQuery("select prd from Product prd where prd.price>300000");
 	 List<Product> products=query2.list();
 	 products.forEach(System.out::println);
+	 //
 	}
 }
